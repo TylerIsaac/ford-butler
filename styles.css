@@ -1,0 +1,283 @@
+.main-wrapper {
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+.header-wrapper {
+}
+
+.img-header {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.header-title {
+  font-size: 6.5vw;
+  color: #02306e;
+  margin: 1% 0 1% 0;
+  font-weight: 900;
+  line-height: 0.9;
+}
+
+.main-text {
+  font-size: 3vw;
+  color: #02306e;
+}
+
+.body-wrapper {
+  display: grid;
+  grid-template-columns: 72%;
+  justify-content: center;
+}
+
+.hr1 {
+  border: 2px solid #02306e;
+  width: 100%;
+}
+
+.text1 {
+  font-size: 3.4vw;
+  color: #02306e;
+}
+
+.mtr {
+  margin-top: -1%;
+}
+
+.mbr {
+  margin-bottom: -1%;
+}
+
+.container-2x {
+  background-color: #02306e;
+  text-align: center;
+  padding: 6% 5%;
+  margin: 3% 0;
+}
+
+.white-text1 {
+  color: white;
+  font-size: 3.25vw;
+}
+
+.white-text2 {
+  color: white;
+  font-size: 7vw;
+}
+
+.coupons-grid-wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 2.5%;
+}
+
+.coupon-wrapper {
+  color: #02306e;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.coupon {
+  border: 2px dashed #02306e; /* Dotted border */
+  width: 98%;
+  display: block;
+  margin: 0 auto;
+}
+
+.coupon-container {
+  display: grid;
+  grid-template-columns: 90%;
+  justify-content: center;
+}
+
+.coupon-grid {
+  display: grid;
+  grid-template-columns: 75% auto;
+  justify-content: center;
+}
+
+.coupon-grid2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  text-align: start;
+  padding-top: 3%;
+  margin-bottom: -6%;
+}
+
+.coupon-text {
+  font-size: 5.5vw;
+  line-height: 0.1;
+  padding-top: 12%;
+}
+
+.coupon-text2 {
+  font-size: 9vw;
+  margin-top: -5%;
+}
+
+.coupon-text3 {
+  font-size: 5.5vw;
+  line-height: 0.9;
+  padding-bottom: 8%;
+}
+
+.promo {
+  font-size: 18vw;
+  padding: 3px;
+  text-align: end;
+}
+
+.promo-align {
+  margin: 8% 0;
+}
+
+.kbb {
+  width: 75%;
+  margin-top: 24%;
+}
+
+.off {
+  font-size: 9vw;
+  line-height: 1;
+}
+
+.service {
+  font-size: 5vw;
+}
+
+.coupon-disclaimer {
+  font-size: 2.5vw;
+  padding-bottom: 10%;
+  margin: 0 16%;
+}
+
+.hr2 {
+  border: 2px solid #02306e;
+  width: 90%;
+}
+
+.coupon-text4 {
+  font-size: 3.5vw;
+  padding: 0;
+}
+
+.btn-group {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+  text-align: center;
+  margin: 10% 0;
+}
+
+.btn1 {
+  background: linear-gradient(
+    0deg,
+    rgba(31, 134, 211, 1) 0%,
+    rgba(31, 151, 238, 1) 100%
+  );
+  border: none;
+  color: white;
+  padding: 5% 0;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5vw;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 2% 0;
+}
+
+a.btn1:link {
+  background: linear-gradient(
+    0deg,
+    rgba(31, 134, 211, 1) 0%,
+    rgba(31, 151, 238, 1) 100%
+  );
+}
+
+a.btn1:visited {
+  color: white;
+  background: linear-gradient(
+    0deg,
+    rgba(31, 134, 211, 1) 0%,
+    rgba(31, 151, 238, 1) 100%
+  );
+  text-decoration: none;
+}
+
+a.btn1:hover {
+  color: white;
+  background: linear-gradient(
+    0deg,
+    rgba(24, 106, 167, 1) 0%,
+    rgba(27, 130, 205, 1) 100%
+  );
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+a.btn1:active {
+  color: white;
+  background: linear-gradient(
+    0deg,
+    rgba(31, 134, 211, 1) 0%,
+    rgba(31, 151, 238, 1) 100%
+  );
+  text-decoration: none;
+}
+
+.text5 {
+  color: #02306e;
+  font-size: 5vw;
+  text-align: center;
+  font-weight: 700;
+}
+
+.text6-container {
+  background-color: #02306e;
+  padding: 6% 0;
+  margin-top: 4%;
+}
+
+.text6 {
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+  font-weight: 700;
+}
+
+.mt {
+    margin-top: 5%;
+}
+
+.header-text {
+    color: #02306e;
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+.hours-container {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: space-between;
+}
+
+.hours-title {
+    color: #02306e;
+    font-size: 4vw;
+    font-weight: 600;
+    text-align: center;
+    margin: 5% 0;
+}
+
+.hours-text1 {
+    color: #02306e;
+    font-size: 4vw;
+    text-align: center;
+}
