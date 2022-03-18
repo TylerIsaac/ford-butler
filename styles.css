@@ -22,11 +22,6 @@
   line-height: 0.9;
 }
 
-.main-text {
-  font-size: 3vw;
-  color: #02306e;
-}
-
 .body-wrapper {
   display: grid;
   grid-template-columns: 72%;
@@ -191,6 +186,7 @@
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   margin: 2% 0;
+  width: 100%;
 }
 
 a.btn1:link {
@@ -232,6 +228,66 @@ a.btn1:active {
   text-decoration: none;
 }
 
+.btn2 {
+  background: linear-gradient(
+    0deg,
+    rgba(31, 134, 211, 1) 0%,
+    rgba(31, 151, 238, 1) 100%
+  );
+  border: none;
+  color: white;
+  padding: 5% 0;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5vw;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 2% 0;
+  width: 100%;
+}
+
+a.btn2:link {
+  background: linear-gradient(
+    0deg,
+    rgba(31, 134, 211, 1) 0%,
+    rgba(31, 151, 238, 1) 100%
+  );
+}
+
+a.btn2:visited {
+  color: white;
+  background: linear-gradient(
+    0deg,
+    rgba(31, 134, 211, 1) 0%,
+    rgba(31, 151, 238, 1) 100%
+  );
+  text-decoration: none;
+}
+
+a.btn2:hover {
+  color: white;
+  background: linear-gradient(
+    0deg,
+    rgba(24, 106, 167, 1) 0%,
+    rgba(27, 130, 205, 1) 100%
+  );
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+a.btn2:active {
+  color: white;
+  background: linear-gradient(
+    0deg,
+    rgba(31, 134, 211, 1) 0%,
+    rgba(31, 151, 238, 1) 100%
+  );
+  text-decoration: none;
+}
+
 .text5 {
   color: #02306e;
   font-size: 5vw;
@@ -253,31 +309,234 @@ a.btn1:active {
 }
 
 .mt {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 .header-text {
-    color: #02306e;
-    font-size: 5vw;
-    font-weight: 600;
+  color: #02306e;
+  font-size: 5vw;
+  font-weight: 600;
 }
 
 .hours-container {
-    display: grid;
-    grid-template-columns: 100%;
-    justify-content: space-between;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: space-between;
 }
 
 .hours-title {
-    color: #02306e;
-    font-size: 4vw;
-    font-weight: 600;
-    text-align: center;
-    margin: 5% 0;
+  color: #02306e;
+  font-size: 4vw;
+  font-weight: 600;
+  text-align: center;
+  margin: 5% 0;
 }
 
 .hours-text1 {
+  color: #02306e;
+  font-size: 4vw;
+  text-align: center;
+}
+
+.rob-container {
+}
+
+.floated {
+  float: left;
+  shape-outside: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2022/03/Rob2.png");
+  shape-image-threshold: 0.5;
+  shape-margin: 5%;
+  width: 70%;
+  margin-left: -10%;
+}
+
+.rob-text {
+  padding-left: 10px;
+}
+
+.no-mt {
+  margin-top: 0;
+}
+
+.disclaimer2 {
+  font-size: 2.5vw;
+  padding-bottom: 4%;
+}
+
+.address {
+  color: #02306e;
+  font-size: 3.5vw;
+  margin: 8% auto;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 922px) {
+  .text1 {
+    font-size: 2.5vw;
+    margin: 0.5% 0;
+  }
+
+  .hr1 {
+    border: 4px solid #02306e;
+  }
+
+  .main-text {
+    font-size: 2vw;
     color: #02306e;
-    font-size: 4vw;
+    margin-bottom: 0;
+  }
+
+  .white-text1 {
+    font-size: 3vw;
+    line-height: 1;
+  }
+
+  .white-text2 {
+    font-size: 6.5vw;
+    line-height: 1;
+  }
+
+  .container-2x {
+    padding: 3% 5%;
+    margin: 3% 0 1% 0;
+  }
+
+  .coupons-grid-wrapper {
+    grid-template-columns: 50% 50%;
+    grid-gap: 0.25%;
+  }
+
+  .coupon-text {
+    font-size: 3vw;
+    line-height: 0.1;
+    padding-top: 12%;
+  }
+
+  .promo {
+    font-size: 10vw;
+  }
+
+  .coupon-text2 {
+    font-size: 4.75vw;
+    margin-top: -8%;
+  }
+
+  .coupon-text3 {
+    font-size: 3vw;
+  }
+
+  .promo-align {
+    margin: 10% 0;
+  }
+
+  .off {
+    font-size: 5vw;
+    line-height: 1;
+  }
+
+  .service {
+    font-size: 2.5vw;
+  }
+
+  .coupon-text4 {
+    font-size: 1.75vw;
+  }
+
+  .coupon-disclaimer {
+    font-size: 1.25vw;
+    padding-bottom: 10.45%;
+  }
+
+  .btn-group {
+    grid-template-columns: 24% 24% 24% 24%;
+    justify-content: space-between;
+    margin-bottom: 2%;
+  }
+
+  .btn1 {
+    background: linear-gradient(
+      0deg,
+      rgba(31, 134, 211, 1) 0%,
+      rgba(31, 151, 238, 1) 100%
+    );
+    border: none;
+    color: white;
+    padding: 5% 0%;
+    border-radius: 10px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.75vw;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin: 2% 0;
+    width: 100%;
+  }
+
+  .floated {
+    float: left;
+    shape-outside: url(https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2022/03/Rob2.png);
+    shape-image-threshold: 0.5;
+    shape-margin: 1%;
+    width: 40%;
+    margin-left: -1%;
+  }
+
+  .text6-container {
+    margin-top: 2%;
+  }
+
+  .text5 {
+    font-size: 4.5vw;
+  }
+
+  .text6 {
+    font-size: 2.75vw;
+  }
+
+  .header-text {
+    font-size: 3vw;
+  }
+
+  .hours-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+  }
+
+  .hours-title {
+    font-size: 1.5vw;
+    text-align: start;
+  }
+
+  .hours-text1 {
+    font-size: 1.5vw;
+    text-align: start;
+  }
+
+  .address {
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 5% auto;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .btn2 {
+    padding: 1% 0;
+    border-radius: 10px;
+    font-size: 1.75vw;
+    margin: 2% 0;
+    width: 24%;
+  }
+
+  .disclaimer2 {
+    font-size: 1.25vw;
+  }
 }
